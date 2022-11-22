@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href='https://fonts.googleapis.com/css?family=Merienda' rel='stylesheet'>
+        <link rel="stylesheet" href="./assets/style.css">
+        <title>Code Quiz</title>
+    </head>
+    <body>
+        <header>
+            <div>
+                <button class="btnHeader" id="view-high-scores">View High Scores</button>
+            </div>
+            <div>
+                <p>Time: <span id="timeLeft">  </span></p>
+            </div>
+             
+        </header>
+    
+            <div id="main"> 
+                <div id="quizContainer">
+                    <p id="startQuestionDisplay">After your 4 weeeks into coding we would like to take this chance to see what you have learn so far inregards to coding. This quiz will be timed and you must completed every one of these qestions before the time runs out. Please completed the quiz and it will determine how far you have come along.</p>
+                    <p id="currentScoreDisplay"></p>
+                    <p id="yourInitials"></p>
+                    <textarea id=yourInitialsTextArea></textarea>
+                    <button class="btn" id="start-quiz">Start Quiz</button>
+                    <button class="btn" id="answer1"></button>
+                    <button class="btn" id="answer2"></button>
+                    <button class="btn" id="answer3"></button>
+                    <button class="btn" id="answer4"></button>
+                    <button class="btn" id="submitScore"></button> 
+    
+                </div>
+                <div id="questionCorrectWrongGrid"></div>
+                <p id=questionCorrectWrong></p>
+                </div>
+    
+        </section>
+        
+        <script src="./assets/script.js"></script>
+    </body>
+    </html>
